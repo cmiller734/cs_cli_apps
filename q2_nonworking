@@ -1,0 +1,52 @@
+console.log('1.\n');
+logLines(6, false); //6 is # lines to write
+
+console.log('\n2.\n');
+logLines(6, false);
+logLines(5, true);
+
+function logLines(numLines, isRev) {
+    var minStar = 0;
+    if (isRev) {
+        var numFinalSpaces = 0;
+        var finalSpacesStr = "";
+    }
+    [...Array(numLines).keys()].forEach((line, i) => {
+        let spaceString = "";
+        let starString = "*";
+        let finalString = "";
+        if (isRev) {
+            spaceString = " ";
+            arrsToString(minStar, numLines, spaceString);
+        } else {
+            arrsToString(numLines, minStar, spaceString);
+        }
+        finalString = spaceString + starString + spaceString;
+        if (isRev) {
+            if (i != 0) {
+                console.log(finalString);
+            }
+        } else {
+            console.log(finalString);
+        }
+        numLines--;
+        minStar++;
+        if (isRev) {
+            numFinalSpaces++;
+        }
+    })
+    if (isRev) {
+        [...Array(numFinalSpaces).keys()].forEach(el => finalSpacesStr += " ");
+        console.log(finalSpacesStr + " * " + finalSpacesStr);
+    }
+}
+
+//if isRev == true, firstArg = minStar, secondArg = numLines
+//if isRev == false, firstArg = numLines, secondArg = minStar
+function arrsToString(firstArg, secondArg, spaceString) {
+        [...Array(firstArg).keys()].forEach(el => spaceString += " ");
+        if (i != 0) {
+            [...Array(secondArg).keys()].forEach(el => starString += "**");
+        }
+}
+

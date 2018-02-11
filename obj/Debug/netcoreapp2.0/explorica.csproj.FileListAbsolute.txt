@@ -1,0 +1,10 @@
+C:\Users\caleb\dev\projects\explorica\obj\Debug\netcoreapp2.0\explorica.csproj.CoreCompileInputs.cache
+C:\Users\caleb\dev\projects\explorica\obj\Debug\netcoreapp2.0\explorica.AssemblyInfoInputs.cache
+C:\Users\caleb\dev\projects\explorica\obj\Debug\netcoreapp2.0\explorica.AssemblyInfo.cs
+C:\Users\caleb\dev\projects\explorica\bin\Debug\netcoreapp2.0\explorica.deps.json
+C:\Users\caleb\dev\projects\explorica\bin\Debug\netcoreapp2.0\explorica.runtimeconfig.json
+C:\Users\caleb\dev\projects\explorica\bin\Debug\netcoreapp2.0\explorica.runtimeconfig.dev.json
+C:\Users\caleb\dev\projects\explorica\bin\Debug\netcoreapp2.0\explorica.dll
+C:\Users\caleb\dev\projects\explorica\bin\Debug\netcoreapp2.0\explorica.pdb
+C:\Users\caleb\dev\projects\explorica\obj\Debug\netcoreapp2.0\explorica.dll
+C:\Users\caleb\dev\projects\explorica\obj\Debug\netcoreapp2.0\explorica.pdb
