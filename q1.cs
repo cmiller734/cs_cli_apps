@@ -5,8 +5,8 @@ public class Q1
 {
     public void init()
     {
-        int[] arr = Enumerable.Range(0, 100).ToArray();
-        foreach (int i in arr)
+        int[] intArr = Enumerable.Range(0, 100).ToArray();
+        foreach (int i in intArr)
         {
             bool isMultipleThree = i % 3 == 0;
             bool isMultipleFive = i % 5 == 0;
