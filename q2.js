@@ -40,8 +40,6 @@ function logLines(numLines, isRev) {
         [...Array(numFinalSpaces).keys()].forEach(el => finalSpacesStr.push(" "));
         finalString = finalSpacesStr;
         finalString.push("*");
-        finalString = finalString.concat(finalSpacesStr)
-        finalString.pop();
         logLine(finalString);
     }
 }
