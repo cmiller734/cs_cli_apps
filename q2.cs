@@ -1,3 +1,5 @@
+//Draws a series of patterns using Console.Write("*"), Console.Write(" "), and Console.WriteLine() only once.
+
 using System;
 using System.Linq;
 

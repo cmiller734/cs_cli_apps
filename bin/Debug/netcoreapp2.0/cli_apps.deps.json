@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "explorica/1.0.0": {
+      "cli_apps/1.0.0": {
         "runtime": {
-          "explorica.dll": {}
+          "cli_apps.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "explorica/1.0.0": {
+    "cli_apps/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

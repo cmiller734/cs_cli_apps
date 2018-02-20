@@ -670,11 +670,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caleb\\dev\\projects\\explorica\\explorica.csproj",
-      "projectName": "explorica",
-      "projectPath": "C:\\Users\\caleb\\dev\\projects\\explorica\\explorica.csproj",
+      "projectUniqueName": "C:\\Users\\caleb\\dev\\projects\\cs_cli_apps\\cli_apps.csproj",
+      "projectName": "cli_apps",
+      "projectPath": "C:\\Users\\caleb\\dev\\projects\\cs_cli_apps\\cli_apps.csproj",
       "packagesPath": "C:\\Users\\caleb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caleb\\dev\\projects\\explorica\\obj\\",
+      "outputPath": "C:\\Users\\caleb\\dev\\projects\\cs_cli_apps\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

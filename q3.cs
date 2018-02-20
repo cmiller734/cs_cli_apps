@@ -1,3 +1,5 @@
+//Using a given input file structure, determines the minimum and maximum length of N number of '#' strings joined together. N is the number at the top of input_file.txt in root dir.
+
 using System;
 using System.IO;
 using System.Linq;
